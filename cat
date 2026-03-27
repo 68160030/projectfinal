@@ -1,0 +1,14 @@
+public class Cat extends Pet {
+    public Cat(String name) { super(name); }
+
+    @Override 
+    public void makeSound() { System.out.println("Meow!"); }
+
+    @Override 
+    public void play() { 
+        System.out.println(getName() + " chases a laser!");
+    }
+    
+    @Override 
+    public String getImagePath() { return "cat.png"; }
+}
